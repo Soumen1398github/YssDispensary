@@ -1,0 +1,69 @@
+
+
+.Lform-popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 720px;
+    
+    opacity: 0;
+    pointer-events: none;
+    width: 100%;
+    background: #fff;
+    border: 2px solid #fff;
+    transform: translate(-50%,-50%);
+}
+
+.Lform-popup .Lform-box{
+    display: flex;
+}
+.Lform-box .Lform-details{
+    width: 100%;
+    color: #fff;
+    max-width: 330px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Lform-box h2{
+    text-align: center;
+    margin-bottom: 29px;
+}
+.Lform-box .Lform-contant{
+    width: 100%;
+    padding: 35px;
+}
+form .Linput-field{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+form .Linput-field input{
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    font-size: 0.95rem;
+    border-radius: 3px;
+    border: 1px solid #717171;
+}
+
+form .Linput-field label{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    color: #717171;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: 0.2s ease;
+}
+
+.Linput-field input input:is(:focus, :valid) ~ label{
+    color: #00bcd4;
+    font-size: 0.75rem;
+    transform: translateY(-50%);
+}

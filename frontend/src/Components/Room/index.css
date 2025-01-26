@@ -1,0 +1,9 @@
+.room_div{
+    display:flex;
+    justify-content: center;
+}
+#videocall_container{
+    margin-top: 4rem;
+    width: 100%;
+    max-height: fit-content;
+} 

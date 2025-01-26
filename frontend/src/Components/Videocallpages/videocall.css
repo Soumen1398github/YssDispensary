@@ -1,0 +1,45 @@
+
+.vid_container {
+  display: inline-block;
+  max-width: 400px;
+  
+  
+  margin-top: 4rem;  
+
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.vid_call{
+  display:flex;
+  justify-content: center;
+  
+  height: 50vh;
+  width: 100vw;
+}
+
+.vid_heading1 {
+  margin-bottom: 10px;
+}
+
+.vid_input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.vid_button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.vid_button:hover {
+  background-color: #18e52d;
+}

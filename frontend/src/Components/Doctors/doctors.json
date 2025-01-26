@@ -1,0 +1,14 @@
+{
+  "doctors": [
+    {
+      "name": "Dr. Emily Smith",
+      "specialty": "Cardiologist",
+      "image": "https://www.shutterstock.com/image-photo/profile-photo-attractive-family-doc-600nw-1724693776.jpg"
+    },
+    {
+      "name": "Dr. Michael Johnson",
+      "specialty": "Neurologist",
+      "image": "https://www.shutterstock.com/image-photo/profile-image-smiling-doctor-man-600nw-1724688081.jpg"
+    }
+  ]
+}
